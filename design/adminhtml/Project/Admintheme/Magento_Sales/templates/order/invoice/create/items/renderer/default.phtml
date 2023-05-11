@@ -36,7 +36,7 @@
     for($i=0; $i<$itemqty; $i++){
     ?>
    
-       <input type="text"  name="invoice[items][barcode][<?= (int) $_item->getOrderItemId() ?>][<?php echo $i?>]" maxlength="13"  id="pin" pattern="^0[1-9]|[1-9]\d$" required/>
+       <input type="text"  name="invoice[items][barcode][<?= (int) $_item->getOrderItemId() ?>][<?php echo $i?>]" maxlength="13"  id="pin" pattern="^0[1-9]|[1-9]\d$" required>
 <br/>
     <?php } ?>
     
